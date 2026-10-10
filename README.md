@@ -161,7 +161,22 @@ PostgreSQL Database (Neon Serverless Cloud)
 
 ---
 
-#### 3. 🧠 [Java Data Structures & Algorithms Practice](https://github.com/priyagupta35/java-dsa-practice)
+#### 3. 🚚 [LogiStream — Event-Driven Logistics & Real-Time Delivery Backend](https://github.com/priyagupta35/LogiStream)
+> **Distributed Event Mesh Architecture with Apache Kafka & Redis GEO**  
+> `Python` · `FastAPI` · `Apache Kafka (KRaft)` · `Redis GEO` · `PostgreSQL` · `Docker Compose` · `Streamlit 3D`
+
+[![GitHub](https://img.shields.io/badge/Repository-LogiStream-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+[![Kafka](https://img.shields.io/badge/Kafka-KRaft_3.7-231F20?style=flat-square&logo=apachekafka&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+[![Redis GEO](https://img.shields.io/badge/Redis-GEO_Spatial-DC382D?style=flat-square&logo=redis&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+[![Dockerized](https://img.shields.io/badge/Docker_Compose-Multi--Service-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+
+* **Event-Driven Asynchronous Pipeline:** Decoupled order lifecycle events (`OrderCreated`, `DriverAssigned`, `OrderPickedUp`, `InTransit`, `OrderDelivered`) via partitioned Kafka topics keyed by `order_id`.
+* **Transactional Idempotency & Fault Tolerance:** Atomic database transactions coupling entity state changes with the `processed_events` table before Kafka offset commits, with dead-letter queue (DLQ) routing.
+* **Spatial Dispatch & Live 3D Operations:** Sub-millisecond nearest-driver discovery via Redis GEO (`GEOSEARCH`), live driver movement simulator, and interactive 3D Streamlit & PyDeck operations map.
+
+---
+
+#### 4. 🧠 [Java Data Structures & Algorithms Practice](https://github.com/priyagupta35/java-dsa-practice)
 > **Problem Solving & Core Algorithmic Competence**  
 > `Java 17` · `Time & Space Complexity Optimization`
 
