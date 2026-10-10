@@ -31,15 +31,26 @@
 ### 💻 Developer Profile
 
 ```bash
-priya@workstation:~$ curl -s https://api.priyagupta.dev/profile | jq .
+$ curl -s https://priya.dev/profile | jq
 {
-  "engineer": "Priya Gupta",
-  "specialization": "Java Backend & Distributed Microservices",
-  "degree": "B.Tech in Computer Science & Business Systems (CSBS)",
-  "location": "Kolkata, India (Open to Remote & Relocation)",
-  "primary_stack": ["Java 17", "Spring Boot 3", "PostgreSQL", "Docker", "Spring AI"],
-  "architecture": ["REST APIs", "Microservices", "JWT / RBAC", "Event Pipelines"],
-  "status": "Actively interviewing for Software Engineer / Backend Developer roles"
+  "name": "Priya Gupta",
+  "role": "Java Backend Engineer",
+  "education": "B.Tech in CSBS",
+  "location": "Kolkata, India",
+  "core_stack": [
+    "Java 17",
+    "Spring Boot 3",
+    "PostgreSQL",
+    "Docker",
+    "Spring AI"
+  ],
+  "architecture": [
+    "RESTful APIs",
+    "Microservices",
+    "JWT / RBAC",
+    "Data Pipelines"
+  ],
+  "open_to_work": true
 }
 ```
 
@@ -82,16 +93,22 @@ priya@workstation:~$ curl -s https://api.priyagupta.dev/profile | jq .
 * **Resilience:** Global Exception handling translating internal validation states into uniform HTTP REST contracts (`ProblemDetails`).
 
 <details>
-<summary><b>🔍 View ExpenseFlow System Endpoints Flow</b></summary>
+<summary><b>🔍 View ExpenseFlow System Request Lifecycle</b></summary>
 
 ```
 Client Request
-  └──> JwtAuthenticationFilter (Token Signature & Expiry Check)
-        └──> SecurityContextHolder (Context Injected)
-              └──> Controller Layer (/api/transactions, /api/categories, /api/summary)
-                    └──> Service Layer (Business Aggregations)
-                          └──> HikariCP Connection Pool
-                                └──> PostgreSQL (Neon Serverless Cloud)
+  ↓
+JwtAuthenticationFilter (Verify Token & Signature)
+  ↓
+SecurityContextHolder (Inject User Authentication)
+  ↓
+REST Controllers (/transactions, /categories, /summary)
+  ↓
+Service Layer (Financial Aggregations & Business Logic)
+  ↓
+HikariCP Connection Pool
+  ↓
+PostgreSQL Database (Neon Serverless Cloud)
 ```
 </details>
 
@@ -115,30 +132,30 @@ Client Request
 <summary><b>🔍 View TechPulse Microservice Architecture Diagram</b></summary>
 
 ```
-  ┌─────────────────┐
-  │   NewsAPI.org   │
-  └────────┬────────┘
-           │ (every 30 mins via Spring Scheduler)
-           ▼
-  ┌──────────────────────────────────────────────┐
-  │         News Ingestion Service (8081)        │
-  │     • Duplicate checking via existsByUrl()    │
-  └────────────────────┬─────────────────────────┘
-                       │ writes
-                       ▼
-  ┌──────────────────────────────────────────────┐
-  │         PostgreSQL Database (Neon Cloud)     │
-  └────────────────────▲─────────────────────────┘
-                       │ reads
-  ┌────────────────────┴─────────────────────────┐
-  │         News Delivery Service (8080)         │
-  │     • JWT Stateless Auth & RBAC Roles        │
-  │     • Spring AI + Ollama (DeepSeek LLM)      │
-  └────────────────────▲─────────────────────────┘
-                       │ REST
-  ┌────────────────────┴─────────────────────────┐
-  │                 Client Apps                  │
-  └──────────────────────────────────────────────┘
+┌─────────────────┐
+│   NewsAPI.org   │
+└────────┬────────┘
+         │ (every 30 mins via Spring Scheduler)
+         ▼
+┌──────────────────────────────────────────────┐
+│         News Ingestion Service (8081)        │
+│     • Duplicate check via existsByUrl()      │
+└────────────────────┬─────────────────────────┘
+                     │ writes
+                     ▼
+┌──────────────────────────────────────────────┐
+│         PostgreSQL Database (Neon Cloud)     │
+└────────────────────▲─────────────────────────┘
+                     │ reads
+┌────────────────────┴─────────────────────────┐
+│         News Delivery Service (8080)         │
+│     • JWT Stateless Auth & RBAC Roles        │
+│     • Spring AI + Ollama (DeepSeek LLM)      │
+└────────────────────▲─────────────────────────┘
+                     │ REST
+┌────────────────────┴─────────────────────────┐
+│                 Client Apps                  │
+└──────────────────────────────────────────────┘
 ```
 </details>
 
