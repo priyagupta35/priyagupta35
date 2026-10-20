@@ -1,21 +1,21 @@
 <div align="center">
 
-<!-- Animated Header -->
+<!-- Animated Typing Header -->
 <a href="https://github.com/priyagupta35">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=2563EB&center=true&vCenter=true&width=650&lines=Hi%2C+I'm+Priya+Gupta+%F0%9F%91%8B;Java+Backend+Engineer+%7C+Distributed+Systems;Spring+Boot+3+%2B+Microservices+%2B+Spring+AI;Architecting+Scalable+Cloud+REST+APIs" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&pause=1000&color=38BDF8&center=true&vCenter=true&width=680&lines=Hi%2C+I'm+Priya+Gupta+%F0%9F%91%8B;Backend+Software+Engineer+%7C+Distributed+Systems;Java+17+%2B+Spring+Boot+3+%2B+Microservices;Python+%2B+Apache+Kafka+%2B+Redis+GEO;Architecting+Resilient+Event-Driven+Backends" alt="Typing Header" />
 </a>
 
 <p align="center">
-  <b>B.Tech in Computer Science & Business Systems (CSBS)</b> · Netaji Subhash Engineering College, Kolkata<br/>
-  <i>Specializing in High-Throughput REST APIs, Microservices Decomposition, and Containerized Cloud Backends</i>
+  <b>B.Tech in Computer Science & Business Systems (CSBS)</b> • Netaji Subhash Engineering College, Kolkata<br/>
+  <i>Specializing in Distributed Systems, High-Concurrency REST APIs, Event-Driven Architectures & Cloud Deployments</i>
 </p>
 
-<!-- Social Badges -->
+<!-- Social & Badges Bar -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/priya-gupta-b4a79528a/" target="_blank">
+  <a href="https://www.linkedin.com/in/priya-gupta35" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
   </a>
-  <a href="mailto:priyagupta.csbs@gmail.com">
+  <a href="mailto:priyaguptaindia56@gmail.com">
     <img src="https://img.shields.io/badge/Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email" />
   </a>
   <a href="https://github.com/priyagupta35">
@@ -28,29 +28,19 @@
 
 ---
 
-### 💻 Developer Profile
+### ⚡ Developer Snapshot
 
 ```bash
-$ curl -s https://priya.dev/profile | jq
+$ curl -s https://priyagupta.dev/status | jq
 {
   "name": "Priya Gupta",
-  "role": "Java Backend Engineer",
-  "education": "B.Tech in CSBS",
-  "location": "Kolkata, India",
-  "core_stack": [
-    "Java 17",
-    "Spring Boot 3",
-    "PostgreSQL",
-    "Docker",
-    "Spring AI"
-  ],
-  "architecture": [
-    "RESTful APIs",
-    "Microservices",
-    "JWT / RBAC",
-    "Data Pipelines"
-  ],
-  "open_to_work": true
+  "education": "B.Tech in CSBS (2023 - 2027) | CGPA: 7.33",
+  "primary_languages": ["Java 17+", "Python 3.11+", "SQL"],
+  "core_backend": ["Spring Boot 3", "FastAPI", "Spring Data JPA", "Spring Security 6"],
+  "distributed_systems": ["Apache Kafka (KRaft)", "Redis (GEO & Cache)", "WebSockets"],
+  "databases": ["PostgreSQL (Neon Serverless)", "MySQL 8.0"],
+  "infrastructure": ["Docker", "Docker Compose", "Render Cloud", "AWS Foundations"],
+  "open_to_work": "Full-Time SDE-1 / Backend Engineer / SDE Intern"
 }
 ```
 
@@ -60,134 +50,133 @@ $ curl -s https://priya.dev/profile | jq
 
 <div align="center">
 
-| Domain | Stack & Tooling |
+| Domain | Technologies & Frameworks |
 | :--- | :--- |
-| **Languages** | <img src="https://img.shields.io/badge/Java_17-ED8B00?style=flat-square&logo=openjdk&logoColor=white"/> <img src="https://img.shields.io/badge/SQL-336791?style=flat-square&logo=postgresql&logoColor=white"/> |
-| **Backend & Enterprise** | <img src="https://img.shields.io/badge/Spring_Boot_3-6DB33F?style=flat-square&logo=springboot&logoColor=white"/> <img src="https://img.shields.io/badge/Spring_Data_JPA-6DB33F?style=flat-square&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Hibernate-59666C?style=flat-square&logo=hibernate&logoColor=white"/> <img src="https://img.shields.io/badge/REST_APIs-02569B?style=flat-square&logo=fastapi&logoColor=white"/> |
-| **Security & Authentication** | <img src="https://img.shields.io/badge/Spring_Security_6-6DB33F?style=flat-square&logo=springsecurity&logoColor=white"/> <img src="https://img.shields.io/badge/JWT-000000?style=flat-square&logo=jsonwebtokens&logoColor=white"/> <img src="https://img.shields.io/badge/BCrypt-4B5563?style=flat-square&logo=auth0&logoColor=white"/> <img src="https://img.shields.io/badge/RBAC-1F2937?style=flat-square"/> |
-| **AI & Next-Gen Backends** | <img src="https://img.shields.io/badge/Spring_AI-6DB33F?style=flat-square&logo=spring&logoColor=white"/> <img src="https://img.shields.io/badge/Ollama-000000?style=flat-square&logo=ollama&logoColor=white"/> <img src="https://img.shields.io/badge/DeepSeek_LLM-4F46E5?style=flat-square&logo=openai&logoColor=white"/> |
-| **Databases & Storage** | <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white"/> <img src="https://img.shields.io/badge/Neon_Serverless-00E599?style=flat-square&logo=neon&logoColor=black"/> <img src="https://img.shields.io/badge/MySQL_8-4479A1?style=flat-square&logo=mysql&logoColor=white"/> <img src="https://img.shields.io/badge/HikariCP-0284C7?style=flat-square"/> |
-| **DevOps & Cloud** | <img src="https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Docker_Compose-2496ED?style=flat-square&logo=docker&logoColor=white"/> <img src="https://img.shields.io/badge/Render_Cloud-46E3B7?style=flat-square&logo=render&logoColor=black"/> <img src="https://img.shields.io/badge/Maven-C71A36?style=flat-square&logo=apachemaven&logoColor=white"/> |
-| **Monitoring & Documentation** | <img src="https://img.shields.io/badge/Log4j2-E34F26?style=flat-square&logo=apache&logoColor=white"/> <img src="https://img.shields.io/badge/Swagger_OpenAPI_3-85EA2D?style=flat-square&logo=swagger&logoColor=black"/> <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat-square&logo=postman&logoColor=white"/> <img src="https://img.shields.io/badge/Git-F05032?style=flat-square&logo=git&logoColor=white"/> |
+| **Languages** | `Java 17+` • `Python 3.11+` • `SQL (PostgreSQL, MySQL)` |
+| **Backend & Microservices** | `Spring Boot 3` • `Spring MVC` • `Spring Data JPA` • `Spring Security 6` • `Hibernate ORM` • `FastAPI` • `SQLAlchemy` • `Pydantic` |
+| **Messaging & Caching** | `Apache Kafka (KRaft, Consumer Groups, DLQ)` • `Redis GEO Spatial Indexing` • `Redis TTL Cache` • `WebSockets` |
+| **Databases & Pooling** | `PostgreSQL (Neon Cloud)` • `MySQL 8.0` • `HikariCP Connection Pool` • `ACID Transactions` |
+| **DevOps & Cloud** | `Docker` • `Docker Compose` • `Multi-Stage Builds` • `Render Platform` • `AWS Cloud Foundations` • `Maven` • `Git` • `Linux CLI` |
+| **API & Observability** | `RESTful API Design` • `JWT RBAC` • `OpenAPI 3 / Swagger UI` • `Prometheus Metrics` • `Streamlit 3D Maps` • `Apache Log4j2` |
+
+<br/>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,postgres,mysql,docker,maven,git,postman&theme=dark" alt="Skills Grid" />
+  <img src="https://skillicons.dev/icons?i=java,spring,python,fastapi,kafka,redis,postgres,mysql,docker,maven,git,postman&theme=dark" alt="Skills Grid" />
 </p>
 
 </div>
 
 ---
 
-### 🏗️ Featured Engineering Projects
+### 🚀 Featured Production Engineering Projects
 
-#### 1. 💰 [ExpenseFlow — Personal Finance REST API](https://github.com/priyagupta35/ExpenseFlow)
-> **Full-Lifecycle Cloud Finance Management Platform**  
-> `Java 17` · `Spring Boot 3.3.5` · `Spring Security (JWT)` · `PostgreSQL (Neon)` · `Docker` · `Render`
+#### 1. 📦 [LogiStream — Event-Driven Logistics & Real-Time Delivery Backend](https://github.com/priyagupta35/LogiStream)
+> **Asynchronous Event-Driven Logistics Infrastructure with Apache Kafka & Redis GEO**  
+> `Python 3.11` • `FastAPI` • `Apache Kafka (KRaft)` • `Redis GEO` • `PostgreSQL` • `Docker Compose` • `Streamlit 3D`
+
+[![Repository](https://img.shields.io/badge/GitHub-LogiStream-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+[![Kafka](https://img.shields.io/badge/Kafka-KRaft_Partitioned-231F20?style=flat-square&logo=apachekafka&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+[![Redis GEO](https://img.shields.io/badge/Redis-GEO_Spatial-DC382D?style=flat-square&logo=redis&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+[![Docker Compose](https://img.shields.io/badge/Docker_Compose-Multi--Service-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/LogiStream)
+
+* **Event-Driven Lifecycle:** Publishes and streams order states (`OrderCreated`, `DriverAssigned`, `InTransit`, `OrderDelivered`) via partitioned Kafka topics keyed by `order_id`.
+* **Sub-Millisecond Driver Matching:** Employs Redis `GEOSEARCH` to identify and dispatch the nearest available delivery driver in sub-milliseconds based on spatial coordinates.
+* **Transactional Idempotency & Fault Tolerance:** Couples business state updates with a `processed_events` table in a single atomic DB transaction before committing Kafka consumer offsets, with automatic Dead Letter Queue (DLQ) retry routing.
+* **Live Telemetry & Visuals:** Containerized via Docker Compose with Prometheus metrics export and an interactive 3D Streamlit & PyDeck operations tracking dashboard.
+
+<details>
+<summary><b>🔍 View LogiStream Architecture & Event Flow</b></summary>
+
+```
+[Client / API] ──(OrderCreated)──► [Kafka: orders.events]
+                                          │
+                                          ▼
+                                 [Dispatch Consumer]
+                                          │
+                  ┌───────────────────────┴───────────────────────┐
+                  ▼                                               ▼
+       [Redis GEO Proximity Query]                     [PostgreSQL Transaction]
+       (Find nearest available driver)                 (processed_events + DB update)
+                  │                                               │
+                  └───────────────────────┬───────────────────────┘
+                                          ▼
+                               [Commit Kafka Offset]
+                                          │
+                      (Success) ──────────┴──────────► (Failure / Malformed)
+                          │                                     │
+                          ▼                                     ▼
+             [delivery.events Topic]                   [orders.dlq Topic]
+```
+</details>
+
+---
+
+#### 2. 📰 [TechPulse — Microservices Tech News Platform & AI Summarizer](https://github.com/priyagupta35/techpulse)
+> **Decoupled Spring Boot Microservices Architecture with Spring AI & DeepSeek LLM**  
+> `Java 17` • `Spring Boot 3` • `Spring Security 6` • `Spring AI` • `DeepSeek / Ollama` • `PostgreSQL (Neon)` • `Docker` • `Render`
+
+[![Delivery Service Live](https://img.shields.io/badge/Delivery_Service-Live_API-00E599?style=flat-square&logo=render&logoColor=black)](https://news-delivery-service.onrender.com/api/articles)
+[![Ingestion Service Health](https://img.shields.io/badge/Ingestion_Service-Health_OK-blue?style=flat-square&logo=render)](https://news-ingestion-service-3.onrender.com/api/ingestion/health)
+[![Docker Multi-Container](https://img.shields.io/badge/Docker_Compose-Multi--Container-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/techpulse-docker)
+
+* **Microservices Separation:** Decomposed monolithic backend into two independent services to isolate scheduled data ingestion workloads from client-facing REST APIs:
+  - **[News Ingestion Service](https://github.com/priyagupta35/news-ingestion-service):** Automated Spring Scheduler polling NewsAPI every 30 mins with Spring Data JPA `existsByUrl()` duplicate filtering.
+  - **[News Delivery Service](https://github.com/priyagupta35/news-delivery-service):** Exposes secured REST endpoints protected by stateless Spring Security 6 JWT and role-based access control (`READER`, `CONTRIBUTOR`, `ADMIN`).
+* **Automated AI Briefings:** Integrated **Spring AI** with **DeepSeek-r1:1.5b via Ollama** to generate real-time 2–3 sentence executive summaries for incoming technology articles.
+* **Cloud Orchestration:** Fully containerized with multi-stage Docker builds and deployed continuously on Render with centralized Log4j2 rolling logging.
+
+<details>
+<summary><b>🔍 View TechPulse Decoupled Architecture Diagram</b></summary>
+
+```
+   [NewsAPI.org]
+         │ (Automated 30-min polling via Spring Scheduler)
+         ▼
+   [News Ingestion Service :8081]
+         │ (existsByUrl duplicate filtering)
+         ▼
+   [PostgreSQL Database (Neon Serverless Cloud)]
+         ▲
+         │ (Reads verified articles)
+   [News Delivery Service :8080]
+   ├── Spring Security 6 (Stateless JWT RBAC)
+   ├── Spring AI + DeepSeek LLM (Summarization)
+   └── Swagger UI / OpenAPI 3
+         ▲
+         │ (RESTful Endpoints)
+   [Client Applications / Web Consumers]
+```
+</details>
+
+---
+
+#### 3. 💳 [ExpenseFlow — Personal Finance Management REST API](https://github.com/priyagupta35/ExpenseFlow)
+> **Stateless Multi-Tenant Financial Analytics & Ledger Engine**  
+> `Java 17` • `Spring Boot 3.3.5` • `Spring Security 6` • `JWT` • `PostgreSQL (Neon)` • `HikariCP` • `Docker` • `Render`
 
 [![Live API](https://img.shields.io/badge/Live_API-Online-success?style=flat-square&logo=render)](https://expenseflow-1-n72u.onrender.com)
-[![Swagger UI](https://img.shields.io/badge/Interactive_Docs-Swagger_UI-85EA2D?style=flat-square&logo=swagger&logoColor=black)](https://expenseflow-1-n72u.onrender.com/swagger-ui/index.html)
-[![Dockerized](https://img.shields.io/badge/Docker-Multi--stage_Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/ExpenseFlow)
+[![Swagger UI Docs](https://img.shields.io/badge/Interactive_Docs-Swagger_UI-85EA2D?style=flat-square&logo=swagger&logoColor=black)](https://expenseflow-1-n72u.onrender.com/swagger-ui/index.html)
+[![Docker Multi-Stage](https://img.shields.io/badge/Docker-Multi--Stage_Build-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/ExpenseFlow)
 
-* **Stateless Security Architecture:** Implemented token-based authentication via JJWT with encrypted credential storage (BCrypt) and role enforcement across custom category/transaction domains.
-* **Aggregations & Analytics:** Real-time financial calculations (Monthly balance, category-wise breakdowns, and date filtering) optimized with Spring Data JPA queries.
-* **Resilience:** Global Exception handling translating internal validation states into uniform HTTP REST contracts (`ProblemDetails`).
-
-<details>
-<summary><b>🔍 View ExpenseFlow System Request Lifecycle</b></summary>
-
-```
-Client Request
-  ↓
-JwtAuthenticationFilter (Verify Token & Signature)
-  ↓
-SecurityContextHolder (Inject User Authentication)
-  ↓
-REST Controllers (/transactions, /categories, /summary)
-  ↓
-Service Layer (Financial Aggregations & Business Logic)
-  ↓
-HikariCP Connection Pool
-  ↓
-PostgreSQL Database (Neon Serverless Cloud)
-```
-</details>
-
----
-
-#### 2. ⚡ [TechPulse — News Aggregator & Microservices Ecosystem](https://github.com/priyagupta35/techpulse)
-> **Distributed Event-Driven Architecture with Spring AI & DeepSeek LLM**  
-> `Java 17` · `Spring Boot 3` · `Spring AI` · `DeepSeek / Ollama` · `Docker Compose` · `Render`
-
-[![Delivery Service](https://img.shields.io/badge/Delivery_Service-Live-00E599?style=flat-square&logo=render&logoColor=black)](https://news-delivery-service.onrender.com/api/articles)
-[![Ingestion Service](https://img.shields.io/badge/Ingestion_Service-Health_OK-blue?style=flat-square&logo=render)](https://news-ingestion-service-3.onrender.com/api/ingestion/health)
-[![Docker Orchestration](https://img.shields.io/badge/Docker_Compose-Multi--Container-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/techpulse-docker)
-
-* **Microservices Decomposition:** Refactored a monolithic backend into two decoupled services communicating over REST:
-  - **[News Ingestion Service](https://github.com/priyagupta35/news-ingestion-service):** Scheduled cron pipeline pulling raw tech articles from NewsAPI every 30 mins with URL-level deduplication.
-  - **[News Delivery Service](https://github.com/priyagupta35/news-delivery-service):** Exposes secured endpoints with Role-Based Access Control (`READER`, `CONTRIBUTOR`, `ADMIN`).
-* **Intelligent Summarisation:** Integrated **Spring AI** backed by **DeepSeek-r1:1.5b via Ollama** to provide automated real-time 2–3 sentence article briefings.
-* **DevOps Setup:** Unified multi-service deployment with [`techpulse-docker`](https://github.com/priyagupta35/techpulse-docker) managing MySQL and both microservices locally.
-
-<details>
-<summary><b>🔍 View TechPulse Microservice Architecture Diagram</b></summary>
-
-```
-┌─────────────────┐
-│   NewsAPI.org   │
-└────────┬────────┘
-         │ (every 30 mins via Spring Scheduler)
-         ▼
-┌──────────────────────────────────────────────┐
-│         News Ingestion Service (8081)        │
-│     • Duplicate check via existsByUrl()      │
-└────────────────────┬─────────────────────────┘
-                     │ writes
-                     ▼
-┌──────────────────────────────────────────────┐
-│         PostgreSQL Database (Neon Cloud)     │
-└────────────────────▲─────────────────────────┘
-                     │ reads
-┌────────────────────┴─────────────────────────┐
-│         News Delivery Service (8080)         │
-│     • JWT Stateless Auth & RBAC Roles        │
-│     • Spring AI + Ollama (DeepSeek LLM)      │
-└────────────────────▲─────────────────────────┘
-                     │ REST
-┌────────────────────┴─────────────────────────┐
-│                 Client Apps                  │
-└──────────────────────────────────────────────┘
-```
-</details>
-
----
-
-#### 3. 🚚 [LogiStream — Event-Driven Logistics & Real-Time Delivery Backend](https://github.com/priyagupta35/LogiStream)
-> **Distributed Event Mesh Architecture with Apache Kafka & Redis GEO**  
-> `Python` · `FastAPI` · `Apache Kafka (KRaft)` · `Redis GEO` · `PostgreSQL` · `Docker Compose` · `Streamlit 3D`
-
-[![GitHub](https://img.shields.io/badge/Repository-LogiStream-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/priyagupta35/LogiStream)
-[![Kafka](https://img.shields.io/badge/Kafka-KRaft_3.7-231F20?style=flat-square&logo=apachekafka&logoColor=white)](https://github.com/priyagupta35/LogiStream)
-[![Redis GEO](https://img.shields.io/badge/Redis-GEO_Spatial-DC382D?style=flat-square&logo=redis&logoColor=white)](https://github.com/priyagupta35/LogiStream)
-[![Dockerized](https://img.shields.io/badge/Docker_Compose-Multi--Service-2496ED?style=flat-square&logo=docker&logoColor=white)](https://github.com/priyagupta35/LogiStream)
-
-* **Event-Driven Asynchronous Pipeline:** Decoupled order lifecycle events (`OrderCreated`, `DriverAssigned`, `OrderPickedUp`, `InTransit`, `OrderDelivered`) via partitioned Kafka topics keyed by `order_id`.
-* **Transactional Idempotency & Fault Tolerance:** Atomic database transactions coupling entity state changes with the `processed_events` table before Kafka offset commits, with dead-letter queue (DLQ) routing.
-* **Spatial Dispatch & Live 3D Operations:** Sub-millisecond nearest-driver discovery via Redis GEO (`GEOSEARCH`), live driver movement simulator, and interactive 3D Streamlit & PyDeck operations map.
+* **Stateless Security Architecture:** Implemented token-based authentication via JJWT with BCrypt password hashing, enforcing multi-tenant data isolation through `@AuthenticationPrincipal`.
+* **Aggregations & Analytics:** Real-time financial calculations (monthly balance, category spending distributions, date-filtered ledgers) optimized via Spring Data JPA custom repository queries.
+* **Connection Pool Optimization:** Configured HikariCP connection pooling parameters (`maximumPoolSize`, `idleTimeout`, `maxLifetime`) to handle serverless Neon PostgreSQL cold-start idle drops.
+* **Production Observability:** Centralized exception handling via `@RestControllerAdvice` emitting standardized RFC 7807 `ProblemDetails` payloads.
 
 ---
 
 #### 4. 🧠 [Java Data Structures & Algorithms Practice](https://github.com/priyagupta35/java-dsa-practice)
-> **Problem Solving & Core Algorithmic Competence**  
-> `Java 17` · `Time & Space Complexity Optimization`
+> **Problem Solving, Algorithmic Efficiency & Clean Object-Oriented Design**  
+> `Java 17` • `Data Structures` • `OOP Design Patterns` • `Complexity Analysis`
 
-* Structured solutions and implementations covering:
-  - **Linear Structures:** Arrays, Strings, Two Pointers, Sliding Window, Singly/Doubly Linked Lists.
-  - **Searching & Sorting:** Binary Search variations, Merge Sort, Quick Sort.
-  - **Recursion & Backtracking:** Foundational problem-solving patterns.
+* **Linear Data Structures:** Dynamic Arrays, Singly/Doubly Linked Lists, Stacks, Queues, Two Pointers, Sliding Window.
+* **Non-Linear Structures:** Binary Search Trees (BST), Heaps / Priority Queues, Graph traversals (BFS & DFS).
+* **Algorithmic Patterns:** Divide & Conquer, Binary Search optimizations, Recursion & Backtracking fundamentals.
 
 ---
 
-### 📊 Real-Time GitHub Telemetry
+### 📊 GitHub Activity & Telemetry
 
 <div align="center">
   <table border="0">
@@ -209,16 +198,16 @@ PostgreSQL Database (Neon Serverless Cloud)
 
 ---
 
-### 🤝 Let's Connect & Collaborate
+### 🤝 Connect & Inquire
 
 <div align="center">
 
-I am actively exploring **Full-Time Software Engineer / Backend Developer** positions where I can contribute to mission-critical backend systems and microservices.
+I am actively interviewing for **Software Development Engineer (SDE-1) / Backend Developer** opportunities.
 
-[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priya-gupta-b4a79528a/)
-[![Send an Email](https://img.shields.io/badge/Drop%20an-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyagupta.csbs@gmail.com)
+[![Connect on LinkedIn](https://img.shields.io/badge/Connect%20on-LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priya-gupta35)
+[![Send an Email](https://img.shields.io/badge/Drop%20an-Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:priyaguptaindia56@gmail.com)
 
 <br/>
-<sub>Crafted with precision by <b>Priya Gupta</b> · © 2026</sub>
+<sub>Designed & engineered with precision by <b>Priya Gupta</b> • 2026</sub>
 
 </div>
